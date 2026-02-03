@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Management Panel</title>
+    <link rel="stylesheet" href="www.css">
+</head>
+<body>
+
+<h1>Event Management – Management Panel</h1>
+
+<div class="container">
+    <form id="managementForm">
+        <input type="hidden" id="editIndex">
+
+        <input type="text" id="goal" placeholder="Event  / Vision" required>
+        <input type="number" id="budget" placeholder="Budget (₹)" required>
+        <input type="text" id="theme" placeholder="Event Theme" required>
+        <input type="number" id="price" placeholder="Ticket Price (₹)" required>
+        <input type="text" id="permission" placeholder="Permissions / Contracts">
+        <textarea id="risk" placeholder="Risk Management Notes"></textarea>
+
+        <button type="submit" class="btn">Save</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Event</th>
+                <th>Budget</th>
+                <th>Theme</th>
+                <th>Price</th>
+                <th>Permission</th>
+                <th>Risk</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+</div>
+
+<script src="www.js"></script>
+</body>
+</html>

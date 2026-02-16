@@ -57,7 +57,7 @@ section{
 .service .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
  .service .box-container .box{
@@ -133,7 +133,7 @@ section{
 .gallery .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .gallery .box-container .box{
